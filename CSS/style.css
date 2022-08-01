@@ -26,8 +26,37 @@ header{
   height: 6.5rem;
 }
 
+.menu{
+  top: 5%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 30px;
+}
+.menu:before,
+.menu:after,
+.menu div {
+  background: var(--color-black);
+  content: "";
+  display: block;
+  height: 4px;
+  border-radius: 1px;
+  margin: 7px 0;
+  transition: 0.5s;
+}
+.menu:hover:before {
+  transform: translateY(12px) rotate(135deg);
+}
+.menu:hover:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+.menu:hover div {
+  transform: scale(0);
+}
+
+
 .first{
-  display: flex;
+  display:none;
   height: 30%;
   justify-content: flex-end;
   padding-right: 168px ;
@@ -59,7 +88,7 @@ a{
   transition: 0.5s;
 }
 .second{
-  display: flex;
+  display: none;
   justify-content:space-around;
   align-items: center;
   height: 80%;
@@ -122,7 +151,7 @@ main{
 }
 
 .content{
-  width: 50%;
+  width: 80%;
   color: var(--color-darkgrey);
 }
 .event-date{
@@ -132,4 +161,73 @@ main{
 .event-location{
   color: var(--color-darkgrey);
   font-family: var(--ff-cocogoose);
+}
+
+.main-section{
+  background-image: url(../assets/pattern_bg.png);
+  background-color: var(--color-black);
+  overflow-x: auto;
+  padding: 2rem 0;
+  color: var(--color-white);
+}
+
+.section-title{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+.bottom-title{
+  width: 3.125rem;
+  height: 0.25rem;
+  border-radius: 0.3125rem;
+  background-color: var(--color-red);
+  margin-top: 10px;
+}
+.cards {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(5, 1fr);
+  width: 100%;
+  gap: 5px;
+  padding: 2.5rem 0.875rem;
+  align-content: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.875rem;
+  background-color: rgb(128 128 128 / 20%);
+  cursor: pointer;
+  transition: outline 0.2s ease-in-out;
+
+}
+
+.card:hover{
+  border: 3px solid var(--color-darkgrey);
+}
+
+.card h3{
+  color: var(--color-red);
+  text-align: center;
+  margin: 15px 15px;
+}
+
+.card p{
+  font-family: var(--ff-cocogoose);
+  color: var(--color-whitesmoke);
+}
+
+.join{
+  background: var(--color-red);;
+  border: 3px solid var(--color-red);
+  color: var(--color-white);
+  width: 50%;
+  height: 40px;
+  margin-left: 100px;
 }
