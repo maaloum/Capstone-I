@@ -277,3 +277,39 @@ main{
   top: 0;
   left: 390px;
 }
+
+.speakers-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid var(--color-white);
+  background-color: var(--color-white);
+  padding: 2rem 0;
+}
+
+.speakers-sec .speakers .each{
+  display: flex;
+  gap: 5px;
+  /* background-color: aqua; */
+}
+.each img{
+  width: 80%;
+  padding-right: 10px;
+}
+.speaker-info{
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+}
+.name{
+  font-family: var(--ff-cocogoose);
+  font-size: 1rem;
+}
+.job{
+  font-family: var(--ff-cocogoose);
+  color: var(--color-red);
+}
+.desc{
+  font-family: var(--ff-cocogoose);
+  color: var(--color-darkgrey);
+}
