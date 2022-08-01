@@ -313,3 +313,28 @@ main{
   font-family: var(--ff-cocogoose);
   color: var(--color-darkgrey);
 }
+
+.partners-sec{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 55px;
+  background: var(--color-darkgrey);
+  height: 250px;
+  padding: 15px;
+}
+.partners-sec h2{
+  font-family: var(--ff-lato)
+  text-align: center;
+  color: var(--color-white);
+}
+.partners{
+  display: flex;
+  gap:10px;
+
+}
+.partners img{
+  width:25%;
+  background: transparent;
+}
