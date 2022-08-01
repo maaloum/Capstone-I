@@ -71,10 +71,11 @@ const speakers = [
 
 ];
 
-const speakerSection = document.querySelector('#Geusts');
+const article = document.querySelector('.wrapper');
 
 speakers.forEach((speaker, id) => {
   const speakereCard = document.createElement('div');
+  speakereCard.className = 'speak-card';
   speakereCard.innerHTML = (`
   <div class="speakers">
     <div class="each speaker${id}">
@@ -90,5 +91,5 @@ speakers.forEach((speaker, id) => {
 
   `);
   speakereCard.classList.add('speakers-sec');
-  speakerSection.appendChild(speakereCard);
+  article.appendChild(speakereCard);
 });
