@@ -1,0 +1,135 @@
+:root {
+  --ff-cocogoose: 'COCOGOOSE', sans-serif;
+  --ff-lato: 'Lato', sans-serif;
+  --color-black: #272a31;
+  --color-red: #ec5242;
+  --color-lightgrey: #d3d3d3;
+  --color-darkgrey: #5e5e5e;
+  --color-whitesmoke: #f7f7f7;
+  --color-white: #fff;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-lato);
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background: var(--color-whitesmoke)
+}
+
+header{
+  height: 6.5rem;
+}
+
+.first{
+  display: flex;
+  height: 30%;
+  justify-content: flex-end;
+  padding-right: 168px ;
+  align-items: center;
+  background: var(--color-black);
+}
+
+li,
+ul {
+  display: inline;
+  list-style-type: none;
+  padding: 0 15px;
+  color: var(--color-white);
+  cursor: pointer;
+  text-align: center;
+}
+li:hover{
+  color: var(--color-red);
+}
+a{
+  text-decoration: none;
+}
+.fa{
+  color: var(--color-white);
+}
+.fa:hover{
+  height:10px;
+  color: var(--color-red);
+  transition: 0.5s;
+}
+.second{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 80%;
+  background: var(--color-white);
+}
+#About{
+  color: var(--color-red)
+}
+.second .logo{
+  height: 80%;
+  background: var(--color-white);
+  padding : 10px, 0;
+  cursor: pointer;
+}
+
+.second a {
+  color: var(--color-black);
+  text-align: center;
+}
+a:hover{
+  color: var(--color-red);
+}
+#mawazine{
+  color: var(--color-red);
+  border: 2px solid var(--color-red);
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-image: url(../assets/main_big.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    padding: 80px 1.9375rem;
+}
+
+.slogan{
+  font-size: 1rem;
+  color: var(--color-red);
+}
+.title{
+    font-family: var(--ff-cocogoose);
+    color: var(--color-red);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.title-content{
+  margin-top: 1.5rem;
+}
+
+.content{
+  width: 50%;
+  color: var(--color-darkgrey);
+}
+.event-date{
+  color: var(--color-black);
+  font-family: var(--ff-cocogoose);
+}
+.event-location{
+  color: var(--color-darkgrey);
+  font-family: var(--ff-cocogoose);
+}
