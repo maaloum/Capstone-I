@@ -1,4 +1,4 @@
-//Humberger menu
+// Humberger menu
 const menu = document.querySelector('.menu');
 // const div = document.querySelector('.second');
 const nav = document.querySelector('.second');
@@ -7,10 +7,10 @@ const span = document.createElement('span');
 span.innerHTML += '<span>&times;</span>';
 span.classList.add('close');
 
-menu.addEventListener('click', ()=>{
+menu.addEventListener('click', () => {
   if (nav.style.display === 'inline-block') {
     nav.style.display = 'none';
-  }else{
+  } else {
     nav.appendChild(span);
     nav.style.display = 'flex';
     nav.classList.add('humberger');
@@ -21,64 +21,59 @@ menu.addEventListener('click', ()=>{
       nav.style.display = 'none';
     }));
   }
-
-})
-
+});
 
 // Poping Speaker Section with JS
 
-const speakers =[
-{
-  img: "/Assets/speaker_01.png",
-  name: 'Weekend',
-  job: 'Musicien and Artist from USA',
-  description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.'
+const speakers = [
+  {
+    img: '/Assets/speaker_01.png',
+    name: 'Weekend',
+    job: 'Musicien and Artist from USA',
+    description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
-},
-{
-  img: "/Assets/speaker_02.png",
-  name: 'Hamzo Bryn',
-  job: 'Musicien and Artist from Mauritania',
-  description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.'
+  },
+  {
+    img: '/Assets/speaker_02.png',
+    name: 'Hamzo Bryn',
+    job: 'Musicien and Artist from Mauritania',
+    description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
+  },
+  {
+    img: '/Assets/speaker_03.png',
+    name: 'Mona Dendeni',
+    job: 'Musicien and Artist from Mauritania',
+    description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
-},
-{
-  img: "/Assets/speaker_03.png",
-  name: 'Mona Dendeni',
-  job: 'Musicien and Artist from Mauritania',
-  description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.'
+  },
+  {
+    img: '/Assets/speaker_04.png',
+    name: 'Nejwa Karam',
+    job: 'Musicien and Artist from Lebenon',
+    description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
-},
-{
-  img: "/Assets/speaker_04.png",
-  name: 'Nejwa Karam',
-  job: 'Musicien and Artist from Lebenon',
-  description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.'
+  },
+  {
+    img: '/Assets/speaker_05.png',
+    name: 'Kadem Saher',
+    job: 'Musicien and Artist from IRAQ',
+    description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
-},
-{
-  img: "/Assets/speaker_05.png",
-  name: 'Kadem Saher',
-  job: 'Musicien and Artist from IRAQ',
-  description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.'
+  },
+  {
+    img: '/Assets/speaker_06.png',
+    name: 'Drek',
+    job: 'Musicien and Artist from USA',
+    description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
-},
-{
-  img: "/Assets/speaker_06.png",
-  name: 'Drek',
-  job: 'Musicien and Artist from USA',
-  description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.'
+  },
 
-}
-
-
-
-]
+];
 
 const speakerSection = document.querySelector('#Geusts');
 
-speakers.forEach((speaker, id)=>{
+speakers.forEach((speaker, id) => {
   const speakereCard = document.createElement('div');
   speakereCard.innerHTML = (`
   <div class="speakers">
@@ -96,5 +91,4 @@ speakers.forEach((speaker, id)=>{
   `);
   speakereCard.classList.add('speakers-sec');
   speakerSection.appendChild(speakereCard);
-
-})
+});
