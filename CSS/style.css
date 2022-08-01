@@ -27,6 +27,7 @@ header{
 }
 
 .menu{
+  display: block;
   top: 5%;
   left: 10%;
   transform: translate(-50%, -50%);
@@ -36,7 +37,7 @@ header{
 .menu:before,
 .menu:after,
 .menu div {
-  background: var(--color-black);
+  background: var(--color-darkgrey);
   content: "";
   display: block;
   height: 4px;
@@ -44,7 +45,7 @@ header{
   margin: 7px 0;
   transition: 0.5s;
 }
-.menu:hover:before {
+/* .menu:hover:before {
   transform: translateY(12px) rotate(135deg);
 }
 .menu:hover:after {
@@ -52,7 +53,7 @@ header{
 }
 .menu:hover div {
   transform: scale(0);
-}
+} */
 
 
 .first{
@@ -94,11 +95,12 @@ a{
   height: 80%;
   background: var(--color-white);
 }
-#About{
+#Home{
   color: var(--color-red)
 }
-.second .logo{
-  height: 80%;
+.logo{
+  width:100px;
+  height: 30px;
   background: var(--color-white);
   padding : 10px, 0;
   cursor: pointer;
@@ -145,6 +147,14 @@ main{
     height: max-content;
     cursor: pointer;
     transition: all 0.25s ease-in-out;
+}
+.title:hover{
+  /* color: transparent; */
+  background-image: url(../assets/fun.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  --webkit-background-clip: text;
 }
 .title-content{
   margin-top: 1.5rem;
@@ -230,4 +240,40 @@ main{
   width: 50%;
   height: 40px;
   margin-left: 100px;
+}
+
+/* Humberger CSS */
+.humberger{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: var(--color-black));
+  /* mix-blend-mode: multiply; */
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 0.82;
+  z-index: 10;
+}
+.humberger img{
+  display: none;
+}
+.humberger ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 90px;
+}
+.close {
+  position: absolute;
+  font-size: 60px;
+  color: var(--color-darkgrey);
+  cursor: pointer;
+  top: 0;
+  left: 390px;
 }
