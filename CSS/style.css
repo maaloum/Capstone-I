@@ -240,6 +240,10 @@ main{
   width: 50%;
   height: 40px;
   margin-left: 100px;
+  cursor: pointer;
+}
+.join:hover{
+  transform: scale(1.1);
 }
 
 /* Humberger CSS */
@@ -282,15 +286,16 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   border-top: 2px solid var(--color-white);
   background-color: var(--color-white);
   padding: 2rem 0;
+  background: var(--color-white);
 }
 
 .speakers-sec .speakers .each{
   display: flex;
   gap: 5px;
-  /* background-color: aqua; */
 }
 .each img{
   width: 80%;
@@ -312,6 +317,7 @@ main{
 .desc{
   font-family: var(--ff-cocogoose);
   color: var(--color-darkgrey);
+  font-size: 12px;
 }
 
 .partners-sec{
@@ -325,7 +331,7 @@ main{
   padding: 15px;
 }
 .partners-sec h2{
-  font-family: var(--ff-lato)
+  font-family: var(--ff-lato);
   text-align: center;
   color: var(--color-white);
 }
@@ -338,3 +344,19 @@ main{
   width:25%;
   background: transparent;
 }
+
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  color: var(--color-white)
+}
+.bottom p{
+  color:var(--color-darkgrey)
+}
+.foot-img{
+  width:30%;
+  height:60px;
+  margin: 5px;
+  }

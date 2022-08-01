@@ -76,7 +76,7 @@ const speakers =[
 
 ]
 
-const speakerSection = document.querySelector('#speakers');
+const speakerSection = document.querySelector('#Geusts');
 
 speakers.forEach((speaker, id)=>{
   const speakereCard = document.createElement('div');
