@@ -27,42 +27,42 @@ menu.addEventListener('click', () => {
 
 const speakers = [
   {
-    img: '/Assets/speaker_01.png',
+    img: 'Assets/speaker_01.png',
     name: 'Weekend',
     job: 'Musicien and Artist from USA',
     description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
   },
   {
-    img: '/Assets/speaker_02.png',
+    img: 'Assets/speaker_02.png',
     name: 'Hamzo Bryn',
     job: 'Musicien and Artist from Mauritania',
     description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
   },
   {
-    img: '/Assets/speaker_03.png',
+    img: 'Assets/speaker_03.png',
     name: 'Mona Dendeni',
     job: 'Musicien and Artist from Mauritania',
     description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
   },
   {
-    img: '/Assets/speaker_04.png',
+    img: 'Assets/speaker_04.png',
     name: 'Nejwa Karam',
     job: 'Musicien and Artist from Lebenon',
     description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
   },
   {
-    img: '/Assets/speaker_05.png',
+    img: 'Assets/speaker_05.png',
     name: 'Kadem Saher',
     job: 'Musicien and Artist from IRAQ',
     description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
 
   },
   {
-    img: '/Assets/speaker_06.png',
+    img: 'Assets/speaker_06.png',
     name: 'Drek',
     job: 'Musicien and Artist from USA',
     description: 'Emerging young conductor and Winner of the Respighi Prize 2017 in Conducting, Jonathan Taylor Rush will bring passion, unique interpretation and refreshing energy to AMC.',
