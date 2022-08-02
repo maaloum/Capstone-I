@@ -13,11 +13,12 @@
   - Webhint
   - ESLint
 
-## Website Mockup 📱 💻 🖥️
+## Project Documentation
+- Here is the [link](https://drive.google.com/file/d/1pRpCYgXXrgL7nfmFDzdW5SDUlSlpfbeL/view?usp=sharing) to my Zoom video
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Capstone I : Mawazine Music Festival 2022](https://maaloum.github.io/Capstone-I/index.html)
 
 👤 **Author**
 
@@ -41,8 +42,8 @@ Give a ⭐️ if you like this project!
 - Code Reviewers
 - Inspiration:
   - [Micheal](https://github.com/michael-duke/)
-  - []()
-Under the[Creative Commons liscense](https://creativecommons.org/licenses/by-nc/4.0/)
+  - [mohamedck](https://github.com/mohamedck)
+Under the [Creative Commons liscense](https://creativecommons.org/licenses/by-nc/4.0/)
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/84629565/181086933-d5bcdb09-da51-40f6-b0f8-a1f191614257.png">
 
 Original design from [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)

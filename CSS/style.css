@@ -114,7 +114,7 @@ select:hover {
   width: 100px;
   height: 30px;
   background: var(--color-white);
-  padding: 10px 0;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
@@ -155,8 +155,8 @@ main {
 .title {
   font-family: var(--ff-cocogoose);
   color: var(--color-red);
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 700;
   line-height: 3.25rem;
   width: max-content;
   height: max-content;
