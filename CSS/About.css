@@ -171,3 +171,7 @@ ul {
   background-image: url(../Assets/Mawazine-Festival-v1.webp);
   background-size: cover;
 }
+
+.bottom{
+  background-color: var(--color-black);
+}
