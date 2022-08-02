@@ -19,12 +19,15 @@
     height: auto;
   }
 
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
   .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 0fr;
     gap: 20px;
-
-    /* margin-top: 25px; */
     width: 96%;
   }
 
