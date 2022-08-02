@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # MAWAZINE MUSIC FESTIVAL 2022
-![MMF 2022 logo](mawazine.png)
+![MMF 2022 logo](Assets/mawazine.png)
 
 > This is an educational project to make a website for a music conference event with home page and about page.
 
@@ -40,9 +40,10 @@ Give a ⭐️ if you like this project!
 - [Microverse](microverse.org)
 - Code Reviewers
 - Inspiration:
+  - [Micheal](https://github.com/michael-duke/)
   - []()
-  - []()
-Under the the [Creative Commons liscense](https://creativecommons.org/licenses/by-nc/4.0/)<img width="300" alt="image" src="https://user-images.githubusercontent.com/84629565/181086933-d5bcdb09-da51-40f6-b0f8-a1f191614257.png">
+Under the[Creative Commons liscense](https://creativecommons.org/licenses/by-nc/4.0/)
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/84629565/181086933-d5bcdb09-da51-40f6-b0f8-a1f191614257.png">
 
 Original design from [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 ## 📝 License
