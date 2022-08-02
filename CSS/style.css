@@ -292,7 +292,7 @@ main {
   color: var(--color-darkgrey);
   cursor: pointer;
   top: 0;
-  left: 390px;
+  left: 310px;
 }
 
 .speakers-sec {
@@ -365,7 +365,7 @@ main {
 }
 
 .partners img {
-  width: 25%;
+  width: 15%;
   background: transparent;
 }
 
