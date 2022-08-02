@@ -155,6 +155,10 @@ ul {
   transition: box-shadow 0.45s, transform 0.45s;
 }
 
+.past-events li:hover {
+  transform: scale(0.6);
+}
+
 .past-events li h3 {
   position: absolute;
   text-align: center;
@@ -172,6 +176,6 @@ ul {
   background-size: cover;
 }
 
-.bottom{
+.bottom {
   background-color: var(--color-black);
 }
