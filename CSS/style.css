@@ -370,7 +370,6 @@ main {
   align-items: center;
   padding: 5px;
   color: var(--color-white);
-  height: 180px;
 }
 
 .bottom p {
