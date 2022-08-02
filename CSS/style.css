@@ -47,16 +47,6 @@ header {
   transition: 0.5s;
 }
 
-/* .menu:hover:before {
-  transform: translateY(12px) rotate(135deg);
-}
-.menu:hover:after {
-  transform: translateY(-12px) rotate(-135deg);
-}
-.menu:hover div {
-  transform: scale(0);
-} */
-
 .first {
   display: none;
   height: 30%;
@@ -86,10 +76,24 @@ a {
 
 .fa {
   color: var(--color-white);
+  position: absolute;
+  height: 10%;
 }
 
 .fa:hover {
-  height: 10px;
+  top: 0;
+  color: var(--color-red);
+  transition: 0.5s;
+}
+
+select {
+  color: var(--color-white);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+select:hover {
   color: var(--color-red);
   transition: 0.5s;
 }
@@ -299,6 +303,12 @@ main {
   border-top: 2px solid var(--color-white);
   background-color: var(--color-white);
   padding: 2rem 0;
+  cursor: pointer;
+}
+
+.each:hover {
+  background-color: var(--color-red);
+  height: 140px;
 }
 
 .speakers-sec .speakers .each {
@@ -336,8 +346,6 @@ main {
 .partners-sec {
   display: flex;
   flex-direction: column;
-
-  /* justify-content: center; */
   align-items: center;
   gap: 55px;
   background: var(--color-darkgrey);
