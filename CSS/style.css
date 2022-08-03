@@ -7,7 +7,6 @@
   --color-darkgrey: #5e5e5e;
   --color-whitesmoke: #f7f7f7;
   --color-white: #fff;
-
 }
 
 * {
@@ -15,7 +14,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: var(--ff-lato);
-
 }
 
 body {
@@ -160,7 +158,6 @@ main {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.25rem;
-  width: max-content;
   height: max-content;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
@@ -344,7 +341,7 @@ main {
   font-size: 12px;
 }
 
-#more{
+#more {
   color: var(--color-black);
   background: var(--color-white);
   text-align: center;
@@ -355,6 +352,7 @@ main {
   padding: 10px;
   border: 1px solid var(--color-darkgrey);
 }
+
 .partners-sec {
   display: flex;
   flex-direction: column;

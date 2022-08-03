@@ -93,9 +93,3 @@ speakers.forEach((speaker, id) => {
   speakereCard.classList.add('speakers-sec');
   article.appendChild(speakereCard);
 });
-
-// function addButton(id){
-//   if(id ==2){
-//     `<button id="more"type="button">More <span id="arrow"></span></button>`
-//   }
-// }
