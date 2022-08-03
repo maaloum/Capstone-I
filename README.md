@@ -15,7 +15,7 @@
 
 ## Project Documentation
 
-- Here is the [link](https://drive.google.com/drive/folders/1_wDEBBU6HZnnyQME6UJdCpG93mE3r9ZT?usp=sharing) to my Zoom video
+- Here is the [link](https://drive.google.com/file/d/1qMMEakDjja0_hg11AL611FLViCX57c5n/view?usp=sharing) to my Zoom video
 
 ## Website Mockup 📱 💻 🖥️
 
