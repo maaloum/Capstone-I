@@ -13,17 +13,21 @@
   - Webhint
   - ESLint
 
+## Project Documentation
+
+- Here is the [link](https://drive.google.com/drive/folders/1_wDEBBU6HZnnyQME6UJdCpG93mE3r9ZT?usp=sharing) to my Zoom video
+
 ## Website Mockup 📱 💻 🖥️
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://maaloum.github.io/Capstone-I/)
 
 👤 **Author**
 
 - GitHub: [@Maaloum](https://github.com/maaloum)
-- Twitter: [@Maaloum](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@Maaloum](https://twitter.com/maaloumely)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ely-cheikh-maaloum-075a79135/)
 
 
 ## 🤝 Contributing
@@ -41,8 +45,8 @@ Give a ⭐️ if you like this project!
 - Code Reviewers
 - Inspiration:
   - [Micheal](https://github.com/michael-duke/)
-  - []()
-Under the[Creative Commons liscense](https://creativecommons.org/licenses/by-nc/4.0/)
+  - [mohamedck](https://github.com/mohamedck)
+Under the [Creative Commons liscense](https://creativecommons.org/licenses/by-nc/4.0/)
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/84629565/181086933-d5bcdb09-da51-40f6-b0f8-a1f191614257.png">
 
 Original design from [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
