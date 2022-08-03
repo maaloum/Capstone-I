@@ -10,6 +10,10 @@
   .menu {
     display: none;
   }
+  main {
+    width: 80%;
+    margin: 20px 100px;
+  }
 
   .main-section {
     padding: 2rem 2rem;
@@ -20,8 +24,16 @@
   }
 
   .title {
-    font-size: 3rem;
+    font-size: 4rem;
+    line-height: 4rem;
     font-weight: 700;
+    text-transform: uppercase;
+  }
+  .title-content{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   .cards {
@@ -58,25 +70,37 @@
     max-width: 700px;
   }
 
+  #more{
+    display: none;
+  }
+
   .partners-sec {
-    height: 450px;
+    display: flex;
+    height: 250px;
+    gap: 5px;
+    padding: 20px;
   }
 
   .partners {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
     padding: 2rem 0;
   }
 
   .partners img {
     width: 15%;
+    height: 100px;
     filter: saturate(0);
     cursor: pointer;
     transition: filter 0.15s;
   }
 
+  .bottom{
+    display: flex;
+    height: 250px;
+  }
   .bottom p {
     font-size: 1.2rem;
   }
@@ -88,15 +112,23 @@
   }
 
   .description {
+    padding:20px;
     width: 59%;
+    height: 200px;
   }
 
   .section-title h2 {
     font-size: 1.9rem;
   }
+  .log-mmf{
+    width: 80%;
+    margin: 0 auto;
+  }
 
   .log-mmf p {
-    margin: auto 170px;
+    margin: 5px auto;
+    text-align: center;
+
   }
 
   .logodegn {
@@ -105,7 +137,6 @@
   }
 
   .logodegn img {
-    max-width: max-content;
     width: 29.375rem;
   }
 

@@ -7,6 +7,7 @@
   --color-darkgrey: #5e5e5e;
   --color-whitesmoke: #f7f7f7;
   --color-white: #fff;
+
 }
 
 * {
@@ -14,11 +15,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: var(--ff-lato);
+
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
   background: var(--color-whitesmoke);
 }
 
@@ -143,25 +143,28 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100vw;
+  width: 80%;
+  margin: 20px 20px;
   padding: 80px 1.9375rem;
 }
 
 .slogan {
   font-size: 1rem;
   color: var(--color-red);
+  text-transform: uppercase;
 }
 
 .title {
   font-family: var(--ff-cocogoose);
   color: var(--color-red);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.25rem;
   width: max-content;
   height: max-content;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
+  width: 100%;
 }
 
 .title-content {
@@ -169,8 +172,10 @@ main {
 }
 
 .content {
-  width: 80%;
+  padding: 0.5rem;
+  font-weight: 500;
   color: var(--color-darkgrey);
+  width: 100%;
 }
 
 .event-date {
@@ -312,7 +317,8 @@ main {
 }
 
 .each img {
-  width: 80%;
+  width: 100px;
+  height: 100px;
   padding-right: 10px;
 }
 
@@ -338,13 +344,24 @@ main {
   font-size: 12px;
 }
 
+#more{
+  color: var(--color-black);
+  background: var(--color-white);
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 35px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid var(--color-darkgrey);
+}
 .partners-sec {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 55px;
+  gap: 15px;
   background: var(--color-darkgrey);
-  height: 250px;
+  height: 170px;
   padding: 15px;
 }
 
@@ -370,6 +387,7 @@ main {
   align-items: center;
   padding: 5px;
   color: var(--color-white);
+  height: 170px;
 }
 
 .bottom p {
