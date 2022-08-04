@@ -14,17 +14,19 @@
   - ESLint
 
 ## Project Documentation
-- Here is the [link](https://drive.google.com/file/d/1pRpCYgXXrgL7nfmFDzdW5SDUlSlpfbeL/view?usp=sharing) to my Zoom video
+- Here is the [link](https://drive.google.com/file/d/1qMMEakDjja0_hg11AL611FLViCX57c5n/view?usp=sharing) to my Zoom video
+
+## Website Mockup 📱 💻 🖥️
 
 ## Live Demo (if available)
-
 [Capstone I : Mawazine Music Festival 2022](https://maaloum.github.io/Capstone-I/index.html)
+
 
 👤 **Author**
 
 - GitHub: [@Maaloum](https://github.com/maaloum)
-- Twitter: [@Maaloum](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@Maaloum](https://twitter.com/maaloumely)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ely-cheikh-maaloum-075a79135/)
 
 
 ## 🤝 Contributing
