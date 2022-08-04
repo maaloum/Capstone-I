@@ -1,8 +1,6 @@
 // Humberger menu
 const menu = document.querySelector('.menu');
-// const div = document.querySelector('.second');
 const nav = document.querySelector('.second');
-// const ul = document.querySelector('.nav-bar ul');
 const span = document.createElement('span');
 span.innerHTML += '<span>&times;</span>';
 span.classList.add('close');
