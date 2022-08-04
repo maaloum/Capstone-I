@@ -169,6 +169,8 @@ main {
   -webkit-text-fill-color: transparent;
   background-size: cover;
   -webkit-background-clip: text;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .title-content {
