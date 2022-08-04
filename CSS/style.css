@@ -165,7 +165,7 @@ main {
 }
 
 .head:hover {
-  background-image: url(../assets/fun.jfif);
+  background-image: url(../Assets/fun.jfif);
   -webkit-text-fill-color: transparent;
   background-size: cover;
   -webkit-background-clip: text;
