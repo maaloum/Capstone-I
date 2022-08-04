@@ -1,0 +1,182 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-image: url(../assets/aboutbg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 80%;
+  padding: 80px 1.9375rem;
+}
+
+.slogan {
+  font-size: 1rem;
+  color: var(--color-red);
+  text-align: center;
+}
+
+.title {
+  font-family: var(--ff-cocogoose);
+  color: var(--color-red);
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 3.25rem;
+  width: max-content;
+  height: max-content;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.title:hover {
+  background-image: none;
+}
+
+.description {
+  padding: 10px;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-lightgrey);
+  font-weight: 400;
+  text-align: center;
+  margin-left: initial;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.contact {
+  width: 80%;
+  text-align: center;
+}
+
+.contact p {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.contact a {
+  font-size: 14px;
+  color: var(--color-black);
+  text-decoration: underline;
+}
+
+.log-mmf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: none;
+  background-color: var(--color-white);
+  overflow-x: auto;
+  padding: 2rem 0;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.bottom-title {
+  width: 3.125rem;
+  height: 0.25rem;
+  border-radius: 0.3125rem;
+  background-color: var(--color-red);
+  margin-top: 10px;
+}
+
+.log-mmf p {
+  text-align: center;
+  color: var(--color-black);
+  font-weight: 400;
+  opacity: 0.7;
+  max-width: 910px;
+  padding: 30px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.logodegn {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid var(--color-lightgrey);
+  margin: auto 20px;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+}
+
+.previous-event {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid var(--color-lightgrey);
+  margin: auto;
+}
+
+.previous-event p {
+  text-align: center;
+  color: var(--color-black);
+  font-weight: 400;
+  opacity: 0.7;
+  max-width: 910px;
+  padding: 20px;
+}
+
+.past-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.past-events li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 35vw;
+  box-shadow: inset -100vw -100vh #ec534280;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: box-shadow 0.45s, transform 0.45s;
+}
+
+.past-events li:hover {
+  transform: scale(0.6);
+}
+
+.past-events li h3 {
+  position: absolute;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.past-events li:first-child {
+  background-image: url(../Assets/mawazine-festival.jpg);
+  background-size: cover;
+}
+
+.past-events li:last-child {
+  background-image: url(../Assets/Mawazine-Festival-v1.webp);
+  background-size: cover;
+}
+
+.bottom {
+  background-color: var(--color-black);
+}
